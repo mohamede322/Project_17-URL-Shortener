@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project_17 - URL Shortener</title>
+    <!-- style -->
+    <link rel="stylesheet" href="./sass/style.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./sass/all.min.css" />
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+      <div class="container">
+        <div class="box">
+              <h1 class="box-heading">URL Shortener</h1>
+              <div class="content">
+                <div class="url-container">
+                  <label for="url">Enter a Link:</label>
+                  <input type="url" id="url" placeholder="example.com" autofocus>
+                  <div class="generate-btn">
+                      <i class="fas fa-arrow-right"></i>
+                  </div>
+                </div>
+                <div class="domain-container">
+                  <p>Short domain:</p>
+                  <div class="domains">
+                    <div class="domain one selected">shrtco.de</div>
+                    <div class="domain two">9qr.de</div>
+                    <div class="domain three">shiny.link</div>
+                  </div>
+                </div>
+              </div>
+
+              <p class="description">
+                With this free Link Shortener you can make Links shorter
+                and easier to remember. Just enter a Link into the form
+                and click on the above Button to generate a short Link.
+                When visiting the short-Link, the short-Link will
+                immediately redirect you to the long Link.
+              </p>
+
+        </div>
+      </div>
+
+    <!-- script -->
+    <script src="main.js"></script>
+  </body>
+</html>
